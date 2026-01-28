@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About Funngro | Empowering Teens to Earn & Learn</title>
+    <meta name="description" content="Funngro is a teen freelancing platform connecting companies with skilled teenagers.">
+    <meta name="keywords" content="Funngro, teen freelancing, student earning, real projects for teens">
+    <link rel="canonical" href="https://www.funngro.com/company">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:title" content="Funngro – Empowering Teens to Earn & Learn">
+    <meta property="og:description" content="Funngro connects teenagers with real companies to work on real projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.funngro.com/company">
+    <meta property="og:image" content="https://www.funngro.com/assets/og-image.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    boxShadow: {
+                        liquid: '0 20px 50px rgba(0,0,0,0.5), inset 0 4px 6px rgba(255, 255, 255, 0.7), inset 0 -4px 6px rgba(0, 0, 0, 0.2)',
+                    },
+                    colors: {
+                        'glass-green': 'rgba(20, 90, 40, 0.10)',
+                        'glass-green-dark': 'rgba(10, 50, 20, 0.50)',
+                    },
+                },
+            },
+        };
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Funngro",
+            "url": "https://www.funngro.com",
+            "description": "Funngro is a teen freelancing platform helping teenagers earn and learn through real projects.",
+            "sameAs": [
+                "https://www.instagram.com/funngro",
+                "https://www.linkedin.com/company/funngro"
+            ]
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        .nav-link {
+            @apply text-white font-bold uppercase tracking-widest text-sm transition-all duration-300;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        .nav-link:hover {
+            @apply text-green-200;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen text-white bg-slate-900">
+
+    <nav id="navbar" 
+         class="fixed top-8 left-1/2 -translate-x-1/2 transform-gpu flex items-center justify-between px-8 md:px-16 py-3 rounded-full border border-green-200/30 backdrop-blur-md bg-glass-green shadow-liquid transition-all duration-500 ease-in-out z-50"
+         style="width: 95%; max-width: 1450px;"> 
+         
+        <a href="#" class="flex-shrink-0">
+            <img src="images/logo.webp" alt="Funngro Logo" class="h-10 w-auto">
+        </a>
+        
+        <div class="flex items-center gap-8 hidden md:flex">
+            <a href="#" class="nav-link">Home</a>
+            <a href="company.html" class="nav-link">Company</a>
+            <a href="teen.html" class="nav-link">Teen</a>
+            <a href="#" class="nav-link bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-400 border-none shadow-lg" style="text-shadow: none;">Download</a>
+        </div>
+
+        <button id="mobile-menu-btn" class="md:hidden text-white text-2xl focus:outline-none">
+            &#9776;
+        </button>
+    </nav>
+
+     <div id="mobile-menu" class="fixed inset-0 bg-slate-900/95 backdrop-blur-xl z-[60] hidden flex flex-col items-center justify-center gap-8 opacity-0 transition-opacity duration-300">
+        <button id="close-menu-btn" class="absolute top-8 right-8 text-white text-4xl">&times;</button>
+        <a href="#" class="text-2xl font-bold text-white hover:text-green-400">Home</a>
+        <a href="company.html" class="text-2xl font-bold text-white hover:text-green-400">Company</a>
+        <a href="teen.html" class="text-2xl font-bold text-white hover:text-green-400">Teen</a>
+        <a href="#" class="bg-green-500 text-white px-8 py-3 rounded-full text-xl font-bold shadow-lg">Download</a>
+    </div>
+
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="text-shimmer">Teenlancers</h1>
+            <p>Work with real businesses, build real projects, and earn real income.
+Opportunities designed for the next-gen achievers.</p>
+            <div class="cta-group">
+                <a href="https://www.funngro.com/company" class="cta-btn primary">Get Started</a>
+                <a href="https://youtu.be/I0XgtabN8rI" class="cta-btn secondary">Watch Video</a>
+            </div>
+        </div>
+    </header>
+ <section class="section stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon">🏢</div>
+                <h3 class="counter" data-target="4000">0</h3>
+                <p>Companies</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📂</div>
+                <h3 class="counter" data-target="12">0</h3>
+                <p>Categories</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👨‍🎓</div>
+                <h3 class="counter" data-target="5000000">0</h3>
+                <p>Teenlancers</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🚀</div>
+                <h3 class="counter" data-target="1000">0</h3>
+                <p>Live Projects</p> 
+            </div>
+        </div>
+    </section>
+
+      <section class="section" style="display:flex; justify-content:center;">
+        <div class="talent-grid">
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-bullhorn"></i><h3>Social media<br>marketing</h3></div>
+                <div class="card-slide-up"><p>Viral campaigns & strategy.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-film"></i><h3>Video<br>Creation</h3></div>
+                <div class="card-slide-up"><p>Reels, edits & production.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-laptop-code"></i><h3>Website<br>Design</h3></div>
+                <div class="card-slide-up"><p>UI/UX & Responsive Web.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-mobile-screen"></i><h3>Influencer<br>Marketing</h3></div>
+                <div class="card-slide-up"><p>Micro-influencer reach.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-code"></i><h3>Mobile App<br>Development</h3></div>
+                <div class="card-slide-up"><p>iOS & Android Apps.</p></div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-chalkboard-user"></i><h3>Campus<br>Ambassador</h3></div>
+                <div class="card-slide-up"><p>Student brand leaders.</p></div>
+            </div>
+            
+            <div class="big-box">
+                <h2>PROJECT CATEGORIES</h2>
+                <p>Explore hundreds of active projects across multiple categories. Choose your preferred categories in the Funngro App, register, and start collaborating with real companies right away.</p>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-magnifying-glass-chart"></i><h3>Research &<br>Survey</h3></div>
+                <div class="card-slide-up"><p>Data & Market Analysis.</p></div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-table-list"></i><h3>Data<br>Entry</h3></div>
+                <div class="card-slide-up"><p>Fast, accurate typing.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-microphone"></i><h3>Voice<br>Over</h3></div>
+                <div class="card-slide-up"><p>Professional audio.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-pen-to-square"></i><h3>Content<br>Writing</h3></div>
+                <div class="card-slide-up"><p>SEO Blogs & Copy.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-bezier-curve"></i><h3>Graphics<br>Design</h3></div>
+                <div class="card-slide-up"><p>Logos & Branding.</p></div>
+            </div>
+            <div class="glass-card">
+                <div class="card-front"><i class="fa-solid fa-bug"></i><h3>Testing</h3></div>
+                <div class="card-slide-up"><p>Quality Assurance.</p></div>
+            </div>
+        </div>
+    </section>
+  <section class="trust-section">
+        <p class="trust-label">Trusted by top companies and partners</p>
+        
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <div class="logo-wrapper"><img src="images/companylogo/CarDekho/CarDekho_idRze6FoEe_0.svg" alt="CarDekho" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="https://cdn.prod.website-files.com/638b48215fd2fd34538fa6bc/6399909fc56174a8505b2556_Enerzy%20Solar%20logo.png" alt="Enerzy Solar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="https://logo.clearbit.com/angelone.in" alt="Angel One" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/tarrakki.svg" alt="Tarrakki" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/stockpie.svg" alt="StockPe" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="https://mescindia.org/images/logo.png" alt="MESC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/aic.svg" alt="AIC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/qapita.svg" alt="Qapita" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/headstart.svg" alt="Headstart" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/ATAL.svg" alt="AIM" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/legacynext.svg" alt="LegacyNext" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/two99.svg" alt="Two99" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/monech.svg" alt="Monech" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/eco365.svg" alt="Eco365" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+                <div class="logo-wrapper"><img src="images/companylogo/growpartner.svg" alt="Grow Partner" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"></div>
+
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">CarDekho</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Enerzy<span style="color:#4ade80">Solar</span></div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Angel One</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Tarrakki</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">StockPe</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">MESC</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">AIC-Pinnacle</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Qapita</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Headstart</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Atal Mission</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">LegacyNext</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Two99</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">Monech</div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">ECO<span style="color:#4ade80">365</span></div></div>
+                <div class="logo-wrapper"><div class="fallback-logo" style="display:flex">GrowPartner</div></div>
+            </div>
+            
+            <div class="fade-overlay left"></div>
+            <div class="fade-overlay right"></div>
+        </div>
+    </section>
+    <section class="carousel-section">
+        <h2 class="text-center text-white mb-10 text-3xl font-bold text-shimmer">Recognized by Industry Leaders</h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto px-4">We are proud to be recognized by leading industry players and publications for our innovative approach and commitment to excellence.</p>
+        
+        <div class="carousel-container">
+            <div class="carousel-item" onclick="goToSlide(0)"><img src="images/wefeatured/business insider.png" alt="1"></div>
+            <div class="carousel-item" onclick="goToSlide(1)"><img src="images/wefeatured/entracker.png" alt="2"></div>
+            <div class="carousel-item" onclick="goToSlide(2)"><img src="images/wefeatured/fmlive in.png" alt="3"></div>
+            <div class="carousel-item" onclick="goToSlide(3)"><img src="images/wefeatured/ibs intelligence.png" alt="4"></div>
+            <div class="carousel-item" onclick="goToSlide(4)"><img src="images/wefeatured/mda.png" alt="5"></div>
+            <div class="carousel-item" onclick="goToSlide(5)"><img src="images/wefeatured/the daily brunch.png" alt="6"></div>
+            <div class="carousel-item" onclick="goToSlide(6)"><img src="images/wefeatured/the times of india.png" alt="7"></div>
+        </div>
+
+        <div class="carousel-controls">
+            <button id="prevBtn" class="nav-arrow">❮</button>
+            <button id="nextBtn" class="nav-arrow">❯</button>
+        </div>
+    </section>
+    <section class="cube-section">
+    <div class="scene">
+        <div class="cube" id="mediaCube">
+            
+
+            
+ <div class="cube-face front">
+    <div class="video-wrapper">
+        <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/HPTWyr_hEk8?autoplay=0&controls=0&rel=0&modestbranding=1" 
+            title="Funngro Shark Tank" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+  
+</div>
+
+            <div class="cube-face right">
+                <img src="images/New folder/image1- Shark Tank.png" alt="Project 2"> 
+              
+            </div>
+
+            <div class="cube-face back">
+                <img src="images/New folder/image1- Shark Tank.png" alt="Project 3">
+                
+            </div>
+
+            <div class="cube-face left">
+                <img src="images/New folder/Shark Tank 3.png" alt="Project 4">
+              
+            </div>
+
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+            
+        </div>
+    </div>
+    <h2>Funngro @ Shark Tank</h2>
+    <p class="instruction-text">✋ Drag to rotate </p>
+</section>
+
+<section class="section light" style="background: transparent;">
+    <h2 style="margin-bottom: 60px;">Working with Teenagers</h2>
+    <p>Simple Steps to Start Working with Talented Teenagers</p>
+    
+    <div class="timeline-section">
+        <div class="timeline-line"></div>
+        <div class="timeline-progress" id="progress-line"></div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3 style="color: #4ade80; margin-bottom: 10px;">01. Register</h3>
+                <p>Sign up on the Funngro platform in just a few clicks.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3 style="color: #60a5fa; margin-bottom: 10px;">02. Add Project</h3>
+                <p>Post your project through a quick and easy process that takes less than 2 minutes.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3 style="color: #a78bfa; margin-bottom: 10px;">03. Get Application</h3>
+                <p>Receive a curated list of interested and relevant teenagers for your project.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3 style="color: #f472b6; margin-bottom: 10px;">04. Select Teens</h3>
+                <p>Review profiles, past work, and experience to choose the teenagers who best fit your needs.</p>
+            </div>
+           
+            
+        </div>
+    </div>
+</section>
+<section class="section reasons-section">
+    <div class="container-center">
+        <div class="section-header">
+            <h2>Why work in your teenage?</h2>
+            <p>Warren Buffet, Bill Gates, Steve Jobs, all started working in their Teens, do you need a better reason?</p>
+        </div>
+
+        <div class="reasons-grid">
+            <div class="reason-card">
+               <div class="card-icon"> <i class="fa-solid fa-indian-rupee-sign"></i> </div>
+                <h3>First income</h3>
+                <p>Work with real companies and Earn money</p>
+            </div>
+            <div class="reason-card">
+                <div class="card-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                <h3>Passion</h3>
+                <p>Make your passion as your profession</p>
+            </div>
+            <div class="reason-card">
+                <div class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <h3>Learning</h3>
+                <p>Experiential Learning by working on real projects</p>
+            </div>
+            <div class="reason-card">
+                <div class="card-icon"><i class="fa-solid fa-certificate"></i></div>
+                <h3>Certification</h3>
+                <p>Build your profile by getting experience certificates</p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© <span id="site-year"></span> Funngro. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="https://www.funngro.com/privacy-policy">Privacy</a> ·
+                <a href="https://www.funngro.com/terms-and-conditions">Terms</a> ·
+                <a href="https://www.funngro.com/contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        // MOBILE MENU LOGIC
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+            setTimeout(() => {
+                mobileMenu.classList.remove('opacity-0');
+            }, 10);
+        });
+
+        closeMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('opacity-0');
+            setTimeout(() => {
+                mobileMenu.classList.add('hidden');
+            }, 300);
+        });
+
+        // 1. Footer Year
+        document.getElementById("site-year").textContent = new Date().getFullYear();
+
+        // 2. Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('py-5', 'bg-glass-green', 'top-8', 'backdrop-blur-md');
+                navbar.classList.add('py-3', 'bg-glass-green-dark', 'top-4', 'scale-95', 'backdrop-blur-xl');
+            } else {
+                navbar.classList.add('py-5', 'bg-glass-green', 'top-8', 'backdrop-blur-md');
+                navbar.classList.remove('py-3', 'bg-glass-green-dark', 'top-4', 'scale-95', 'backdrop-blur-xl');
+            }
+        });
+
+        // 3. Parallax Effect
+        window.addEventListener('scroll', function() {
+            const hero = document.querySelector('.hero-section');
+            if(hero) {
+                let scrollPosition = window.pageYOffset;
+                hero.style.backgroundPositionY = (scrollPosition * 0.5) + 'px';
+            }
+        });
+
+        // 4. Scroll Reveal Animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        });
+        const hiddenElements = document.querySelectorAll('.reveal');
+        hiddenElements.forEach((el) => observer.observe(el));
+
+        // 5. 3D Tilt Effect
+        function handleTilt(e, card) {
+            const glow = card.querySelector('.glow');
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            const rotateX = ((y - centerY) / centerY) * -10; 
+            const rotateY = ((x - centerX) / centerX) * 10;
+
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+            if(glow) {
+                glow.style.left = `${x - 100}px`;
+                glow.style.top = `${y - 100}px`;
+            }
+        }
+
+        function resetTilt(card) {
+            card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+        }
+
+        // 6. TIMELINE SCROLL LOGIC
+    // TIMELINE SCROLL LOGIC
+window.addEventListener('scroll', () => {
+    const section = document.querySelector('.timeline-section');
+    const items = document.querySelectorAll('.timeline-item');
+    const progressLine = document.getElementById('progress-line');
+    
+    // Calculate scroll percentage through the timeline section
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.offsetHeight;
+    const scrollY = window.scrollY + (window.innerHeight / 2); // Trigger point at center screen
+    
+    let percentage = ((scrollY - sectionTop) / sectionHeight) * 100;
+    
+    // Cap percentage between 0 and 100
+    percentage = Math.max(0, Math.min(100, percentage));
+    progressLine.style.height = `${percentage}%`;
+
+    // Light up individual items
+    items.forEach(item => {
+        const itemTop = item.getBoundingClientRect().top;
+        if (itemTop < window.innerHeight * 0.75) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+});
+
+        // 7. ANIMATED COUNTER LOGIC
+        const statsSection = document.querySelector('.stats-section');
+        const counters = document.querySelectorAll('.counter');
+        let statsStarted = false; 
+
+        window.addEventListener('scroll', () => {
+            if (statsSection && window.scrollY + window.innerHeight > statsSection.offsetTop + 100 && !statsStarted) {
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute('data-target');
+                    const duration = 2500; 
+                    const increment = target / (duration / 16); 
+                    let current = 0;
+                    
+                    const updateCounter = () => {
+                        current += increment;
+                        if (current < target) {
+                            counter.innerText = Math.ceil(current).toLocaleString('en-IN'); 
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            counter.innerText = target.toLocaleString('en-IN') + "+";
+                        }
+                    };
+                    updateCounter();
+                });
+                statsStarted = true;
+            }
+        });
+
+        // 8. 3D CAROUSEL LOGIC
+        const items = document.querySelectorAll('.carousel-item');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentIndex = 0;
+        let carouselInterval;
+
+        function updateCarousel() {
+            if(items.length === 0) return;
+            const total = items.length;
+            
+            items.forEach((item, index) => {
+                item.className = 'carousel-item'; 
+                let diff = index - currentIndex;
+                
+                if (diff > total / 2) diff -= total;
+                if (diff < -total / 2) diff += total;
+
+                if (diff === 0) item.classList.add('active');
+                else if (diff === -1) item.classList.add('prev-1');
+                else if (diff === -2) item.classList.add('prev-2');
+                else if (diff === -3) item.classList.add('prev-3');
+                else if (diff === 1) item.classList.add('next-1');
+                else if (diff === 2) item.classList.add('next-2');
+                else if (diff === 3) item.classList.add('next-3');
+                else if (diff < -3) item.classList.add('hide-left');
+                else item.classList.add('hide-right');
+            });
+        }
+
+        function showNext() {
+            if(items.length === 0) return;
+            currentIndex = (currentIndex + 1) % items.length;
+            updateCarousel();
+            resetTimer(); 
+        }
+
+        function showPrev() {
+            if(items.length === 0) return;
+            currentIndex = (currentIndex - 1 + items.length) % items.length;
+            updateCarousel();
+            resetTimer();
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+            resetTimer();
+        }
+
+        function startCarouselTimer() {
+            carouselInterval = setInterval(showNext, 5000);
+        }
+
+        function resetTimer() {
+            clearInterval(carouselInterval);
+            startCarouselTimer();
+        }
+
+        if(nextBtn && prevBtn) {
+            nextBtn.addEventListener('click', showNext);
+            prevBtn.addEventListener('click', showPrev);
+        }
+
+        updateCarousel();
+        startCarouselTimer();
+        /* ================= 3D CUBE LOGIC ================= */
+const cube = document.getElementById('mediaCube');
+let rotationY = 0;
+let autoRotateInterval;
+let isDragging = false;
+let startX = 0;
+let currentX = 0;
+
+// 1. Function to Rotate Cube
+
+function rotateCube(angle) {
+    // translateZ must be half of --cuboid-depth (250px / 2 = 125px)
+    // Dynamic JS needs to match the CSS variable if it changes on mobile
+    // Reading CSS variable to be safe
+    const depth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--cuboid-depth'));
+    cube.style.transform = `translateZ(-${depth/2}px) rotateY(${angle}deg)`;
+}
+
+// 2. Auto-Rotation (Every 5 Seconds)
+function startAutoRotate() {
+    autoRotateInterval = setInterval(() => {
+        rotationY -= 90; // Spin 90 degrees left
+        cube.style.transition = "transform 1s cubic-bezier(0.2, 0.8, 0.2, 1)";
+        rotateCube(rotationY);
+    }, 5000); // 5000ms = 5 seconds
+}
+
+// 3. Mouse Drag Logic
+cube.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    clearInterval(autoRotateInterval); // Stop auto-spin while dragging
+    cube.style.transition = "none"; // Remove smooth transition for instant drag
+    cube.style.cursor = "grabbing";
+});
+
+window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    const deltaX = e.clientX - startX;
+    // Rotate based on mouse movement speed
+    rotateCube(rotationY + (deltaX * 0.5));
+});
+
+window.addEventListener('mouseup', (e) => {
+    if (!isDragging) return;
+    isDragging = false;
+    cube.style.cursor = "grab";
+    
+    // Snap to nearest 90 degrees
+    const deltaX = e.clientX - startX;
+    rotationY += deltaX * 0.5;
+    
+    // Round to nearest 90 so it lands flat
+    rotationY = Math.round(rotationY / 90) * 90;
+    
+    cube.style.transition = "transform 0.5s ease-out";
+    rotateCube(rotationY);
+    
+    // Restart auto-rotation
+    startAutoRotate();
+});
+
+// Mobile Touch Support (Swipe)
+cube.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    clearInterval(autoRotateInterval);
+    cube.style.transition = "none";
+});
+
+window.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    const deltaX = e.touches[0].clientX - startX;
+    rotateCube(rotationY + (deltaX * 0.5));
+});
+
+window.addEventListener('touchend', (e) => {
+    isDragging = false;
+    const deltaX = e.changedTouches[0].clientX - startX;
+    rotationY += deltaX * 0.5;
+    rotationY = Math.round(rotationY / 90) * 90;
+    cube.style.transition = "transform 0.5s ease-out";
+    rotateCube(rotationY);
+    startAutoRotate();
+});
+
+// Start the timer on load
+startAutoRotate();
+
+    </script>
+</body>
+</html>
